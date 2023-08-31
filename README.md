@@ -1,27 +1,29 @@
-# webdriverio-v6-cucumber-perfecto-boilerplate
 
-Boilerplate project to run WebdriverIO tests in Perfecto Cloud ([https://www.perfecto.io/]()) using Cucumber features, and the page objects pattern.
+# webdriverio-cucumber-headspin-boilerplate
+ 
+Boilerplate project to run WebdriverIO tests in Headspin Cloud ([https://www.headspin.io/]()) using Cucumber features, and the page objects pattern.
 
 ## Requirements
 
-- Node version 8 or higher
-- Perfecto Cloud Access
+- Node version 18 or higher
+- Headspin Cloud Access
 
 # Frameworks:
-- webdriverIO (v6)
-- cucumber (v6)
+
+- webdriverIO
+- cucumber
 
 # Features:
-- Cloud integration with [Perfecto](https://www.perfecto.io/)
+
+- Cloud integration with [Headspin](https://www.headspin.io/)
 - Supports Page Object Model
 - Contains sample Scenarios written in Declarative style of BDD
 
 ## Running end-to-end tests
 
-- Clone the git repo - `git clone https://github.com/tamil777selvan/wdioV6-Perfecto-Boilerplate.git`.
-
+- Clone the git repo - `git clone https://github.com/Muralijc/Wdio-Headspin-boilerplate.git`.
 - Install dependencies with `npm i`.
+- Update Device Capabilities and Headspin Configs in `config/headspinConfig.json`
+- Run `npm run headspin` or `npx wdio run config/wdio.conf.ts` to execute the e2e tests.
 
-- Update Device Capabilities and Perfecto Security Token in `config/perfectoConfig.json`
-
-- Run `npm run perfecto` or `npx wdio ./config/wdio.conf.js` to execute the e2e tests.
+ 
